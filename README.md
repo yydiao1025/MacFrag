@@ -14,7 +14,8 @@ tar zxvf MacFrag.tar.gz
 
 cd MacFrag.dist
 
-./MacFrag -i /data/MacFrag/examp.smi -o /data/MacFrag/ -maxBlocks 6 -maxSR 8 -asMols False -minFragAtoms 1    #'/data/MacFrag/' is the absolute path
+./MacFrag -i /data/MacFrag/examp.smi -o /data/MacFrag/ -maxBlocks 6 -maxSR 8 -asMols False -minFragAtoms 1    
+#'/data/MacFrag/' is the absolute path
 ```
 Optional arguments:
   -h, --help            show this help message and exit
