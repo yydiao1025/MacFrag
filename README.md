@@ -5,15 +5,15 @@ generating diverse fragments that are more compliant with the â€œRule of Threeâ€
 MacFrag is developed and maintained by Prof. HongLin Li's Group, School of Pharmacy, East China University of Science & Technology, Shanghai 200237, China. 
 http://lilab-ecust.cn/
 
-1. Usage in Linux exectable file:
+##1. Usage in Linux exectable file:
 
-1) untar the file:
+###1) untar the file:
 tar zxvf MacFrag.tar.gz
 
-2) usage example: 
+###2) usage example: 
 cd MacFrag.dist
 ./MacFrag -i /data/MacFrag/examp.smi -o /data/MacFrag/ -maxBlocks 6 -maxSR 8 -asMols False -minFragAtoms 1    #'/data/MacFrag/' is the absolute path
-
+```
 Optional arguments:
   -h, --help            show this help message and exit
   -input_file INPUT_FILE, -i INPUT_FILE
@@ -30,11 +30,14 @@ Optional arguments:
                         file with fragments representd as SMILES strings
   -minFragAtoms MINFRAGATOMS
                         the minimum number of atoms that the fragments contain
-                        
-2. Source codes
+```                        
+##2. Source codes
+``` 
 MacFrag.py is the source codes. Users can define their own fragmentation rules or make other modifications. 
-
-3. other files
+``` 
+##3. other files
+``` 
 1) chembl28_mw500.smi,  Mols collected from ChEMBL database with molecular weight lower than 500
 2) chembl28_mw500-1000.smi,  Mols collected from ChEMBL database with molecular weight ranging from 500 to 1000
 3) time_compare.py,  A python script for calculating the run time of different fragmentation programs
+``` 
