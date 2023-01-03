@@ -6,6 +6,7 @@ MacFrag is developed and maintained by Prof. HongLin Li's Group, School of Pharm
 http://lilab-ecust.cn/
 
 ![image](https://github.com/yydiao1025/MacFrag/blob/main/MacFrag.tif)
+
 ## 1. Usage in Linux exectable file:
 
 ### 1) untar the file:
