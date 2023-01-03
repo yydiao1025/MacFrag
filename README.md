@@ -5,6 +5,7 @@ generating diverse fragments that are more compliant with the â€œRule of Threeâ€
 MacFrag is developed and maintained by Prof. HongLin Li's Group, School of Pharmacy, East China University of Science & Technology, Shanghai 200237, China. 
 http://lilab-ecust.cn/
 
+![image](https://github.com/yydiao1025/MacFrag/blob/main/MacFrag.tif)
 ## 1. Usage in Linux exectable file:
 
 ### 1) untar the file:
