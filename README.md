@@ -42,5 +42,6 @@ MacFrag.py is the source codes. Users can define their own fragmentation rules o
 ``` 
 1) chembl28_mw500.smi,  Mols collected from ChEMBL database with molecular weight lower than 500
 2) chembl28_mw500-1000.smi,  Mols collected from ChEMBL database with molecular weight ranging from 500 to 1000
+After merging the two .smi files, 1 921 745 molecules with molecular weights lower than 1000 will be obtained that were used to evaluate the qualities of fragments obtained by the three programs. 
 3) time_compare.py,  A python script for calculating the run time of different fragmentation programs
 ``` 
