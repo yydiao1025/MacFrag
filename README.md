@@ -2,6 +2,8 @@
 MacFrag is an efficient molecule fragmentation method, which is capable of segmenting large-scale molecules in a rapid speed and 
 generating diverse fragments that are more compliant with the “Rule of Three”. 
 
+Reference: Yanyan Diao, Feng Hu, Zihao Shen, Honglin Li*. MacFrag: segmenting large-scale molecules to obtain diverse fragments with high qualities. Bioinformatics, 2023. 39(1) : btad012
+
 MacFrag is developed and maintained by Prof. HongLin Li's Group, School of Pharmacy, East China University of Science & Technology, Shanghai 200237, China. 
 http://lilab-ecust.cn/
 
