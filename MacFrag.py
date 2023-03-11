@@ -1,6 +1,6 @@
 
 # MacFrag is an efficient molecule fragmentation method, which is capable of segmenting large-scale molecules in a rapid speed and 
-# generating diverse fragments that are more compliant with the ¡°Rule of Three¡±. 
+# generating diverse fragments that are more compliant with the "Rule of Three". 
 
 # MacFrag is developed and maintained by Prof. HongLin Li's Group, School of Pharmacy, East China University of Science & Technology, Shanghai 200237, China. 
 # http://lilab-ecust.cn/
@@ -459,11 +459,11 @@ def write_file(input_file,dir,maxBlocks,maxSR,asMols,minFragAtoms):
         for mol in mols:
             if mol is not None:
                 frags=MacFrag(mol,maxBlocks=maxBlocks,maxSR=maxSR,asMols=True,minFragAtoms=minFragAtoms)
-            for f in frags:
-                try:
-                    fw.write(f)
-                except Exception:
-                    continue
+                for f in frags:
+                    try:
+                        fw.write(f)
+                    except Exception:
+                        continue
         
     elif asMols == 'False':
         out_file=dir+'fragments.smi'
@@ -471,12 +471,10 @@ def write_file(input_file,dir,maxBlocks,maxSR,asMols,minFragAtoms):
         for mol in mols:
             if mol is not None:
                 frags=MacFrag(mol,maxBlocks=maxBlocks,maxSR=maxSR,asMols=False,minFragAtoms=minFragAtoms)
-            for f in frags:
-                fw.write(f+'\n')
+                for f in frags:
+                    fw.write(f+'\n')
         fw.close()
-    
-  
-    
+
 def main():
     opt = parse_args()
     input_file=opt.input_file
